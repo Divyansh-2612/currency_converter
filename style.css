@@ -1,0 +1,93 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0b1cb;
+}
+.container{
+    background-color: white;
+    height: 55vh;
+    width: 30vw;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-top: 20vh;
+}
+h2{
+    font-size: 2rem;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    text-align: center;
+    padding-top:1rem ;
+}
+.amount-class p{
+    padding-left: 1rem;
+}
+input,button{
+    width: 90%;
+    border-radius: 0.75rem;
+    outline:none;
+    border: 1px solid lightgrey;
+}
+form input{
+    height: 3rem;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+input{
+    margin-top: 0.1rem;
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+form{
+    margin: 2rem 0rem 1rem 0rem;
+}
+p{
+    font-size: 1rem;
+}
+.flag-name{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2rem;
+}
+.select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid lightgrey;
+}
+.flag-name p{
+    padding: 5px;
+}
+.select-container i{
+    font-size: 1.5rem;
+}
+.select-container select{
+    width: auto;
+    font-size: 1rem;
+    position: relative;
+    outline: none;
+    border: none;
+}
+.msg{
+    margin: 2rem 0 2rem 0;
+    text-align: center;
+
+}
+img{
+    max-width: 2rem;
+}
+button{
+    height: 2.5rem;
+    font-size: 1rem;
+    background-color: rgb(195, 142, 244);
+    margin-left: 1rem;
+    
+}
